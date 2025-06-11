@@ -1,0 +1,101 @@
+/* Reset & base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #c084fc, #a855f7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-box {
+  background: #f3e8ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.signinbox {
+  margin-top: 1rem;
+  background: #f3e8ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #7e22ce;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #5b21b6;
+  margin-top: 1.5rem;
+}
+
+input {
+  width: 90%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.b1 {
+  width: 95%;
+  margin-top: 1rem;   /* ⬅️ this adds space between inputs and button */
+  padding: 0.6rem;
+  background: #9333ea;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.b2 {
+  width: 95%;
+  margin-top: 1rem;   /* ⬅️ this adds space between inputs and button */
+  padding: 0.6rem;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.status {
+  margin-top: 4rem; /* ⬅️ Add spacing above User Info */
+  color: #4d0469;
+}
+
+.logout {
+  width: 95%;
+  margin-top: 2rem; /* ⬅️ Add spacing above Logout */
+  padding: 0.6rem;
+  background: #facc15;
+  color: #4d0469;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout:hover {
+  background: #eab308;
+}
+.b1:hover{
+    background: lime;
+}
+.b2:hover{
+    background: lime
+}
